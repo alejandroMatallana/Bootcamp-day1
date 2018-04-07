@@ -1,4 +1,22 @@
 
-  <app-my-component></app-my-component>
+  <app-my-component>
 
-  <button>Click me</button>
+
+   
+    
+  </app-my-component>
+
+  {{count}}
+  <h1>HOLA QUE TAL</h1>
+
+  <button (click)="count = count + 1" >Click me</button>
+
+  <button (click)="enabled = !enabled" >Habilitar</button>
+
+
+
+  
+  <img [src]="imageSource">
+
+
+  <input [disabled]="enabled"> 

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, interpolate } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -8,4 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'my application';
   autor = 'Alejandro Matallana';
+  count = 0;
+  imageSource = './../favicon.ico';
+  enabled = false;
 }
